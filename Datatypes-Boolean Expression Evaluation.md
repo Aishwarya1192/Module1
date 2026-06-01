@@ -16,6 +16,29 @@ To write a Python program that evaluates and prints the results of boolean and a
 
 ## 💻 Program
 Add Code here
+print("True + True =", True + True)
+print("True + False =", True + False)
+print("False + False =", False + False)
+
+print("True * 5 =", True * 5)
+print("False * 5 =", False * 5)
+
+print("True - False =", True - False)
+print("False - True =", False - True)
+
+print("True / True =", True / True)
+print("False / True =", False / True)
+
 
 ## Output
+True + True = 2
+True + False = 1
+False + False = 0
+True * 5 = 5
+False * 5 = 0
+True - False = 1
+False - True = -1
+True / True = 1.0
+
 ## Result
+Hence the output is verified
