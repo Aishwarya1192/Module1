@@ -13,7 +13,22 @@ To write a Python program that reads two integers, creates a complex number usin
 
 ## 💻 Program
 Add Code Here
+x = int(input("Enter the real part: "))
+y = int(input("Enter the imaginary part: "))
+
+c = complex(x, y)
+
+print("Complex number:", c)
+print("Real part:", c.real)
+print("Imaginary part:", c.imag)
+
 
 ## Output
+Enter the real part: 3
+Enter the imaginary part: 4
+Complex number: (3+4j)
+Real part: 3.0
+Imaginary part: 4.0
 
 ## Result
+Hence the output is verified
